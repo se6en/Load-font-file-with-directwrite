@@ -20,5 +20,6 @@ Also, we can create fonts with multiple font files, the paramters collectionKey 
 
 ### D2DDrawTextCtrl(.h and .cpp)
 This is the window we used to create DirectWrite and draw text. The only thing here we need to notice that the font name must be the same as the name in the font file. For example, we click the .TTF file without installing it, we can find that the name is "Harry P", so the name we used to SetFontFamilyName must be the same as "Harry P". If the name was wrong, the font set will failed and the text will still be draw in the original font. And the font file path can be get in anyway you want.
->>The font file must be copied to the same folder with *.exe before run the application.
+![Image](https://github.com/se6en/Load-font-file-with-directwrite/blob/master/Font_File_Thumbnail.png)
+>>The font file must be copied to the same folder as *.exe before run the application.
 
