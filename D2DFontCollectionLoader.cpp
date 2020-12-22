@@ -78,6 +78,7 @@ HRESULT CD2DFontCollectionLoader::CreateEnumeratorFromKey(
    }
 
    *fontFileEnumerator = (IDWriteFontFileEnumerator*)pFontFileEnumerator;
+   pFontFileEnumerator->AddRef();
 
    return hr;
 }
